@@ -1,0 +1,284 @@
+/* POPPINS FONT FAMILY */
+@import url("https://fonts.googleapis.com/css2?family=Poppins&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
+
+* {
+  font-family: "Poppins", sans-serif;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  box-sizing: border-box;
+  background-color: #f5f5f5;
+}
+
+header {
+  height: 400px;
+  background-color: #3400ff;
+}
+nav {
+  float: right;
+  margin-top: 20px;
+  margin-right: 40px;
+}
+.nav-item {
+  margin-right: 10px;
+  color: #fff;
+}
+.nav-item-active {
+  background-color: #fff;
+  padding: 5px;
+  border-radius: 5px;
+  font-weight: 300;
+  margin-right: 20px;
+  color: #5a31f5;
+}
+.logo {
+  margin: 20px;
+}
+.header-text {
+  margin-left: 20px;
+  margin-top: 40px;
+  color: #fff;
+  float: left;
+  line-height: 2.2;
+}
+.header-image {
+  float: right;
+  height: 420px;
+}
+.header-text h2 {
+  font-size: 30px;
+}
+.companies {
+  margin-left: 20px;
+  margin-top: 30px;
+}
+.company-items {
+  list-style-type: none;
+  text-decoration: none;
+  margin-left: 19px;
+  font-weight: 900;
+  color: #000;
+  font-family: Righteous;
+}
+.api {
+  margin-left: 33px;
+  margin-top: 70px;
+  font-weight: 900;
+}
+.api h1 {
+  font-family: Righteous;
+}
+.cards {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+}
+.card-active {
+  background-color: #fff;
+  /* padding: 15px; */
+  width: 15%;
+  height: 150px;
+  border-radius: 5px;
+  box-shadow: 0px 2px 18px #000;
+  margin-right: 20px;
+  padding: 20px;
+}
+.card {
+  width: 15%;
+  height: 150px;
+  background-color: transparent;
+  margin-right: 20px;
+  padding: 20px;
+}
+.cards h3 {
+  font-size: 20px;
+}
+.cards p {
+  font-size: 10px;
+}
+.card-active h3 {
+  color: #5a31f5;
+}
+.blog-heading {
+  margin-left: 33px;
+  margin-top: 70px;
+  font-weight: 900;
+}
+.blog-heading > h1 {
+  font-family: Righteous;
+}
+.blog-cards {
+  margin-top: 50px;
+  display: flex;
+  flex-direction: row;
+  margin-left: 33px;
+}
+.blog-card {
+  margin-right: 30px;
+  position: relative;
+  background-color: #fff;
+  height: 287px;
+  width: 511px;
+  border-radius: 51px 10px 10px 10px;
+
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.blog-image {
+  float: left;
+  width: 20%;
+}
+.blog-content {
+  padding: 33px;
+  float: right;
+}
+.blog-content h3 {
+  font-family: Righteouss;
+}
+.blog-content small {
+  font-size: 10px;
+  line-height: 0.1;
+}
+.blog-bottom {
+  /* position: absolute; */
+  position: absolute;
+  left: 330px;
+  top: 243px;
+}
+.blog-author {
+  position: absolute;
+  top: 132px;
+  left: 200px;
+  font-size: 70%;
+  width: 40%;
+}
+
+.blog-content h6 {
+  color: #3400ff;
+}
+
+.blog-content h3 {
+  /* padding: 20px 0; */
+}
+.faq-section {
+  display: flex;
+  flex-direction: row;
+  margin-top: 60px;
+  height: 323px;
+  padding-left: 32px;
+  background-color: #dcf0ff;
+  justify-content: space-between;
+}
+.faq-content {
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+  justify-content: space-around;
+}
+.faq-content h2 {
+  font-size: 200%;
+  font-weight: 900;
+  font-family: Righteous;
+}
+.faq-content h4 {
+  font-weight: 200;
+}
+.faq-content button {
+  background-color: #3400ff;
+  color: #ffffff;
+  border: none;
+  width: 40%;
+  padding: 5px 20px;
+  border-radius: 5px;
+  margin-top: 20px;
+}
+
+.download-content span {
+  font-size: 20px;
+}
+.download-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 32px;
+  margin-top: 70px;
+}
+.download-content h1 {
+  font-size: 20px;
+}
+.download-email form {
+  border: none;
+  background-color: #dcf0ff;
+  padding: 3px 3px;
+  text-align: center;
+  border-radius: 40px;
+  border: 2px solid #cad5e2;
+}
+input {
+  /* border: none;
+  background-color: #dcf0ff;
+  padding: 5px 30px;
+  border-radius: 40px;
+  width: 175px; */
+  border: none;
+  background-color: transparent;
+  width: 300px;
+}
+.download-email button {
+  background-color: #3400ff;
+  color: #ffffff;
+  border: none;
+
+  padding: 5px 30px;
+  border-radius: 20px;
+}
+.footer-section {
+  display: flex;
+  background-color: #3400ff;
+  justify-content: space-between;
+  /* align-items: center; */
+  margin-top: 80px;
+  padding: 20px;
+}
+.footer-left {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
+}
+.list {
+  display: flex;
+  flex-direction: space-between;
+}
+
+.footer-logo {
+  height: 30%;
+  width: 140px;
+  margin-left: 20px;
+}
+
+.list-items {
+  list-style-type: none;
+  color: #dcf0ff;
+  margin: 20px;
+}
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.footer-rights {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.footer-logos {
+  height: 5%;
+  width: 5%;
+}
+.logos-list {
+  display: flex;
+}
